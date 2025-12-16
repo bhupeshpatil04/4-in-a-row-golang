@@ -24,28 +24,6 @@ First to connect 4 discs vertically, horizontally, or diagonally wins
 
 If the board is full with no winner → draw
 
-🏗 Project Structure
-4-in-a-row-golang-final/
-├─ backend/                # GoLang backend
-│  ├─ cmd/
-│  │  └─ server/
-│  │     └─ main.go        # Server entrypoint
-│  ├─ internal/
-│  │  ├─ game/             # Game logic
-│  │  └─ ws/               # WebSocket handler
-│  ├─ go.mod
-│  └─ go.sum
-├─ frontend-react/         # React frontend
-│  ├─ public/
-│  │  └─ index.html
-│  ├─ src/
-│  │  ├─ index.js          # Main React app
-│  │  ├─ App.js
-│  │  └─ App.css
-│  ├─ package.json
-│  └─ package-lock.json
-└─ README.md
-
 ⚡ Backend Setup (GoLang)
 
 Navigate to backend folder:
